@@ -1,0 +1,211 @@
+header {
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+body {
+    background-image: url(https://plitka.ua/upload/iblock/de2/ql8y0n53vo31srx8bib0k6fhzj624r60/plitka_stevol_mramor_svetlo_seriy_st6121008p_600x1200_1322534.jpg) ;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+} 
+
+p{
+text-align: center;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container img {
+    transition: border-color 0.3s; 
+}
+
+.image-container img:hover {
+    border: 2px solid #686868; 
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.video-container:hover {
+    background-color: #4d4d4d; 
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    background: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626228003_20-kartinkin-com-p-fon-temnoe-derevo-tekstura-krasivo-21.jpg);
+}
+
+td{
+    text-align: center;
+    padding: 8px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSnx8x2bZ8lofM8ODpunPFvTtBik9Fqp4A9F_jROoJd1i4XXL7RRedb-D0gvaewGAAe5A&usqp=CAU);
+}
+
+footer {
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0; 
+    width: 100%;
+
+}
+
+#arrow {
+    font-size: 0.7em;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#games-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    padding: 0;
+    z-index: 3;
+}
+
+#games-dropdown ul li {
+    padding: 10px;
+}
+
+
+.active .dropdown-menu {
+    display: block;
+}
+
+#games-link {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.chat-container {
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    position: relative;
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-03/thumbs/1615845584_98-p-chernii-fon-vertikalnii-114.jpg');
+    background-size: auto; 
+    background-position: center; /* Вирівнювання фону по центру */
+}
+
+.chat-messages {
+    height: 300px;
+    width: 100%;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chat-input {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.2); 
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+#send-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+/* Стилі для повідомлень */
+.chat-message {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    word-wrap: break-word;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+    min-width: 80px;
+}
+
+.outgoing-message, .incoming-message {
+    background-color: #ffffff88;
+    align-self: flex-end;
+    word-wrap: break-word
+}
+
+/* Стилі для поля вводу ніку і кнопки OK */
+.username-input {
+    display: flex;
+    align-items: center;
+}
+
+#username {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+#save-username {
+    margin-left: 10px;
+    padding: 5px 10px;
+}

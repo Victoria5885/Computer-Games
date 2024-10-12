@@ -1,0 +1,119 @@
+
+header {
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#arrow {
+    font-size: 0.7em;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#games-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    padding: 0;
+    z-index: 3;
+}
+
+#games-dropdown ul li {
+    padding: 10px;
+}
+
+
+.active .dropdown-menu {
+    display: block;
+}
+
+#games-link {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.chat-container {
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    position: relative;
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-03/thumbs/1615845584_98-p-chernii-fon-vertikalnii-114.jpg');
+    background-size: auto; 
+    background-position: center;
+}
+
+.chat-messages {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column; /* Зміна напрямку на вертикальний */
+    word-wrap: break-word;
+}
+.comments-section {
+        max-width: auto; /* Задайте максимальну ширину для коментарів */
+        margin: 20px auto; /* Задайте відступи для центрування на сторінці */
+        font-family: Arial, sans-serif; /* Задайте шрифт */
+    }
+
+    h2 {
+        color: #333; /* Задайте колір для заголовка коментарів */
+    }
+
+    h1 {
+        background-color: #f0f0f0; /* Задайте фоновий колір для кожного коментаря */
+        padding: 10px; /* Задайте відступи внутрішнього контенту для коментарів */
+        margin: 10px 0; /* Задайте зовнішні відступи для кожного коментаря */
+        border-radius: 8px; /* Задайте закруглені кути для коментарів */
+    }
+ 
+footer {
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0; 
+    width: 100%;
+}
